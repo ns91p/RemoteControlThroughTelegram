@@ -10,9 +10,9 @@ import telepot
 from PIL import ImageGrab
 from telepot.loop import MessageLoop
 
-token = '' 
-trusted_users = []
-trusted_chats = []
+token = ''                  # your token 
+trusted_users = []          # your id-list
+trusted_chats = []          # your chat-list
 
 class PyTelegram:
     def __init__(self):
@@ -27,6 +27,7 @@ class PyTelegram:
         chat_id = message['chat']['id']
 
         if user_id in trusted_users or chat_id in trusted_chats:
+            # for users and chats from access list
             try:
                 print(message['text'])
                 args = message['text'].split()
