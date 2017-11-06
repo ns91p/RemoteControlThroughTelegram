@@ -10,8 +10,8 @@ import telepot
 from PIL import ImageGrab
 from telepot.loop import MessageLoop
 
-token = '467094491:AAEuH3JT1hCLU6DdB8TEBW0fsiT6ADTDcqI'
-trusted_users = [213077586]
+token = '' 
+trusted_users = []
 trusted_chats = []
 
 class PyTelegram:
