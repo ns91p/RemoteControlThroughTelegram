@@ -14,5 +14,5 @@ PyInstaller==3.3
 pypiwin32==220
 requests==2.18.4
 telepot==12.4
-urllib3==1.22
+urllib3==1.24.2
 yarl==0.13.0
