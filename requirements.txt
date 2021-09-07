@@ -9,7 +9,7 @@ macholib==1.8
 multidict==3.3.2
 olefile==0.44
 pefile==2017.9.3
-Pillow==4.3.0
+Pillow==8.3.2
 PyInstaller==3.3
 pypiwin32==220
 requests==2.18.4
